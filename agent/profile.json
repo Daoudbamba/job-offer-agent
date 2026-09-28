@@ -1,0 +1,74 @@
+{
+  "nom": "Daouda Bamba",
+  "titre": "Développeur Full-Stack — Data & IA",
+  "formation": "Master 1 Intelligence Artificielle & Big Data — ESGI Paris",
+  "competences": [
+    "Python (pandas, numpy)",
+    "LLMs & Prompt Engineering",
+    "Agents IA / Workflows agentiques",
+    "Intégration APIs IA",
+    "SQL / PostgreSQL / MongoDB",
+    "Pipelines de données",
+    "Rust / Axum (architecture async)",
+    "Java (Spring Boot)",
+    "PHP (Symfony, Laravel)",
+    "API REST / WebSocket temps réel",
+    "JWT / bcrypt / RBAC",
+    "Docker / Kubernetes (notions)",
+    "Linux — Administration",
+    "CI/CD : GitHub Actions, Jenkins",
+    "Git / GitHub",
+    "AWS / Azure / GCP (notions)",
+    "TypeScript / JavaScript",
+    "React.js / Next.js",
+    "TailwindCSS",
+    "Machine Learning (scikit-learn)",
+    "FastAPI"
+  ],
+  "experiences": [
+    {
+      "poste": "Stagiaire Développeur Web",
+      "entreprise": "La Poste — Daloa, Côte d'Ivoire",
+      "periode": "04/2025 – 07/2025",
+      "resume": "Application interne, APIs REST, tests automatisés Postman, environnement Linux."
+    },
+    {
+      "poste": "Stagiaire Développeur Web",
+      "entreprise": "Globale Réussite — Daloa, Côte d'Ivoire",
+      "periode": "09/2024 – 02/2025",
+      "resume": "Panel d'administration PHP/Laravel, modélisation de base de données."
+    }
+  ],
+  "projets": [
+    {
+      "nom": "EpiTalk",
+      "stack": "Rust/Axum, Next.js, WebSocket, PostgreSQL, MongoDB, Docker",
+      "resume": "Plateforme de chat temps réel type Discord, JWT/RBAC, 29 tests automatisés."
+    },
+    {
+      "nom": "Assistant documentaire RAG",
+      "stack": "Python, FastAPI, PostgreSQL/pgvector, Next.js, Docker",
+      "resume": "Assistant qui répond à des questions sur des documents indexés avec citation des sources."
+    },
+    {
+      "nom": "Observatoire du chômage",
+      "stack": "Python, FastAPI, PostgreSQL, Next.js, Docker",
+      "resume": "Pipeline ETL sur données INSEE réelles, dashboard de visualisation."
+    },
+    {
+      "nom": "Prédiction d'attrition",
+      "stack": "Python, scikit-learn, FastAPI",
+      "resume": "Modèle de classification (régression logistique) pour prédire le départ d'employés."
+    },
+    {
+      "nom": "Job Board",
+      "stack": "Flask, React, MySQL, TypeScript, Docker",
+      "resume": "Plateforme de recrutement full-stack avec authentification JWT."
+    },
+    {
+      "nom": "Billetterie",
+      "stack": "Spring Boot, Next.js, PostgreSQL, Docker",
+      "resume": "API REST containerisée pour la gestion d'événements et réservations."
+    }
+  ]
+}

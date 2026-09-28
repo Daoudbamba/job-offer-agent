@@ -1,0 +1,19 @@
+services:
+  api:
+    build: .
+    restart: unless-stopped
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      AGENT_MODEL: ${AGENT_MODEL:-gemini-flash-latest}
+    ports:
+      - "8030:8000"
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8030
+    ports:
+      - "3020:3000"
+    depends_on:
+      - api
